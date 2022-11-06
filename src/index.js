@@ -3,11 +3,31 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+import Music from './components/Music';
+import Pics from './components/Pics';
+import Home from './components/Home';
+import Blog from './components/Blog';
+import { Helmet } from 'react-helmet';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/pics" element={<Pics />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

@@ -1,0 +1,12 @@
+[
+  {
+    "date": "November 5, 2022",
+    "title": "New site",
+    "content": "<p>Welcome to my latest site! Just as a chef is the last to eat, or a mechanic's car is the last to be repaired, a web developer's personal site is always last to get attention. This year has been pretty busy for me. Besides the projects at my government job, my small business has had an interesting year as well.</p> <p>Web development continues to amaze me by how quickly it changes. While core concepts remain the same, other technologies develop so rapidly it is a challenge to stay on top of it all. This year I developed in Python using the Django and Flask frameworks. I came to really enjoy Flask. I also developed a healthy respect for ASP.NET Core; sometimes Microsoft does get it right.</p><p>I can honestly say that I am looking forward what 2023 has to bring my way, and to the world of web development in general.</p>"
+  },
+  {
+    "date": "November 6, 2022",
+    "title": "second post",
+    "content": "This is the second post."
+  }
+]
