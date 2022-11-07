@@ -3,15 +3,17 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import React, { Component } from 'react';
-import { Outlet} from "react-router-dom";
+import { BrowserRouter, Outlet} from "react-router-dom";
 
 
 function App() {
   return (
       <div className="App">
-        <Header />
-        <Navbar />
-        <Outlet />
+        <BrowserRouter>
+          <Header />
+          <Navbar />
+          <Outlet />
+        </BrowserRouter>
       </div>
   );
 }
